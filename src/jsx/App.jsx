@@ -164,7 +164,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Muistipeli</h1>
+      <h2>Muistipeli</h2>
       <div className="words_container">
         {words.map((word) => (
           <div className="word_container" key={word}>
