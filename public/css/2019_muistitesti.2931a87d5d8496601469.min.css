@@ -1,0 +1,154 @@
+/* General styles */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.ss-terms {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.meta {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.clear_both {
+  clear: both;
+}
+.hidden {
+  display: none;
+}
+.nowrap {
+  white-space: nowrap;
+}
+#app-root-2019_muistitesti {
+  background-color: #efd0f1;
+  background: linear-gradient(43deg, #efd0f1 0%, #f7e4ee 12%, #fef6eb 32%, #fef6eb 64%, #e6f0e8 83%, #a8dfdf 100%);
+  border-radius: 15px;
+  margin: auto auto;
+  max-width: 600px;
+  padding: 40px;
+  text-align: center;
+}
+#app-root-2019_muistitesti h1 {
+  color: #220439;
+  font-family: Yle, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#app-root-2019_muistitesti .info_container {
+  color: #220439;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+#app-root-2019_muistitesti .button {
+  background-color: #9f0478;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+#app-root-2019_muistitesti .button:hover {
+  opacity: 0.8;
+}
+#app-root-2019_muistitesti .words_container {
+  margin-bottom: 20px;
+}
+#app-root-2019_muistitesti .words_container .word_container {
+  background-color: #fff;
+  box-sizing: content-box;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 20px;
+  height: 46px;
+  line-height: 46px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  width: 150px;
+}
+#app-root-2019_muistitesti .words_container .word_container .inputs {
+  border-color: #9f0478;
+  border-style: solid;
+  border-width: 2px;
+}
+#app-root-2019_muistitesti .words_container .word_container .word {
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 20px;
+  height: 46px;
+  line-height: 46px;
+  outline: none;
+  text-align: center;
+  width: 100%;
+}
+#app-root-2019_muistitesti .words_container .word_container input {
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 20px;
+  height: 46px;
+  line-height: 46px;
+  outline: none;
+  text-align: center;
+  width: 100%;
+}
+#app-root-2019_muistitesti .words_container .word_container input.correct {
+  background-color: #a2f9de;
+}
+#app-root-2019_muistitesti .words_container .word_container input.incorrect {
+  background-color: #f7a4a4;
+}
+#app-root-2019_muistitesti .result_container {
+  color: #220439;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+#app-root-2019_muistitesti .result_container a {
+  color: #9f0478;
+}
+#app-root-2019_muistitesti .result_container .share_container {
+  margin-bottom: 20px;
+}
+#app-root-2019_muistitesti .timer_container {
+  appearance: none;
+  background-color: #9f0478;
+  border-radius: 50px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px auto auto auto;
+  text-align: center;
+  width: 50px;
+}
+#app-root-2019_muistitesti .timer_container:hover {
+  opacity: 0.8;
+}
+
