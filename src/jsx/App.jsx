@@ -27,9 +27,14 @@ function App() {
   const [words, setWords] = useState([]);
   const [wordsCount, setWordsCount] = useState(3);
 
+  const getDataPath = () => {
+    if (window.location.href.includes('github')) return './assets/data/';
+    if (process.env.NODE_ENV === 'production') return 'https://lusi-dataviz.ylestatic.fi/2019_muistitesti/assets/data';
+    return 'assets/data';
+  };
+
   useEffect(() => {
-    const path_prefix = (window.location.href.match('yle.fi')) ? 'https://lusi-dataviz.ylestatic.fi/2019_muistitesti/' : './';
-    fetch(`${path_prefix}assets/data/2019_muistitesti_data.json`).then((response) => {
+    fetch(`${getDataPath()}/2019_muistitesti_data.json`).then((response) => {
       if (!response.ok) {
         throw Error(response.statusText);
       }
