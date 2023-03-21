@@ -1,0 +1,125 @@
+@import 'basics.less';
+
+#app-root-2019_muistitesti {
+  background-color: rgb(239,208,241);
+  background: linear-gradient(43deg, rgba(239,208,241,1) 0%, rgba(247,228,238,1) 12%, rgba(254,246,235,1) 32%, rgba(254,246,235,1) 64%, rgba(230,240,232,1) 83%, rgba(168,223,223,1) 100%);
+  border-radius: 15px;
+  margin: auto auto;
+  max-width: 600px;
+  padding: 40px;
+  text-align: center;
+  h1 {
+    color: #220439;
+    font-family: Yle, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  .info_container {
+    color: #220439;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .button {
+    background-color: #9f0478;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .words_container {
+    margin-bottom: 20px;
+    .word_container {
+      background-color: #fff;
+      box-sizing: content-box;
+      display: inline-block;
+      font-family: Roboto;
+      font-size: 20px;
+      height: 46px;
+      line-height: 46px;
+      margin: 5px;
+      position: relative;
+      text-align: center;
+      width: 150px;
+      .inputs {
+        border-color: #9f0478;
+        border-style: solid;
+        border-width: 2px;
+      }
+      .word {
+        border: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 20px;
+        height: 46px;
+        line-height: 46px;
+        outline: none;
+        text-align: center;
+        width: 100%;
+      }
+      input {
+        border: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 20px;
+        height: 46px;
+        line-height: 46px;
+        outline: none;
+        text-align: center;
+        width: 100%;
+        &.correct {
+          background-color: #a2f9de;
+        }
+        &.incorrect {
+          background-color: #f7a4a4;
+        }
+      }
+    }
+  }
+  .result_container {
+    color: #220439;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    a {
+      color: #9f0478;
+    }
+    .share_container {
+      margin-bottom: 20px;
+    }
+  }
+  .timer_container {
+    appearance: none;
+    background-color: #9f0478;
+    border-radius: 50px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px auto auto auto;
+    text-align: center;
+    width: 50px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
