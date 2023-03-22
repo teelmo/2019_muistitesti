@@ -18,7 +18,7 @@ function App() {
   const [hiddenRestartButton, setHiddenRestartButton] = useState(true);
   const [hiddenTimer, setHiddenTimer] = useState(true);
   const [hiddenWord, setHiddenWord] = useState(false);
-  const [infoText, setInfoText] = useState('Paina mieleesi ruudulla näkyvät sanat. Kun aika on loppu, kirjoita sanat ruudulle ilmestyviin laatikoihin. Halutessasi saat vastauslaatikot näyviin heti painamalla sekuntikellon kuvaa.');
+  const [infoText, setInfoText] = useState('Paina mieleesi ruudulla näkyvät sanat. Kun aika on loppu, kirjoita sanat ruudulle ilmestyviin laatikoihin. Halutessasi saat vastauslaatikot näkyviin heti painamalla sekuntikellon kuvaa.');
   const [round, setRound] = useState(1);
   const [startText, setStartText] = useState('Aloita peli');
   const [timer, setTimer] = useState(9);
