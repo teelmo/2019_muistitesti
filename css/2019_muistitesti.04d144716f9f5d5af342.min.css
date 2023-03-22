@@ -92,6 +92,7 @@
 #app-root-2019_muistitesti .words_container .word_container .word {
   border: 0;
   box-sizing: border-box;
+  color: #220439;
   display: inline-block;
   font-family: Roboto;
   font-size: 20px;
@@ -104,6 +105,7 @@
 #app-root-2019_muistitesti .words_container .word_container input {
   border: 0;
   box-sizing: border-box;
+  color: #220439;
   display: inline-block;
   font-family: Roboto;
   font-size: 20px;
