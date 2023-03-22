@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "yleDataviz": {
+    "darkMode": true,
     "externalContent": true
   },
   "scripts": {
